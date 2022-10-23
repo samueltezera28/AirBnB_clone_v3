@@ -35,3 +35,4 @@ def stats():
         for key, value in PLURALS.items():
             response[value] = storage.count(key)
         return jsonify(response)
+        
