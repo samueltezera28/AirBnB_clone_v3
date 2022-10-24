@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""states"""
+"""
+Flask route that returns json status response
+"""
 from api.v1.views import app_views
 from flask import jsonify, abort, request
 from models import storage
